@@ -57,22 +57,6 @@ This project uses third-party art, UI, audio, and model assets imported during d
 - `THIRD_PARTY_ASSETS.md` lists the packs currently used in the project.
 - Before public redistribution, review the original asset pack licenses and attribution requirements for every imported pack.
 
-## Recommended Distribution
-
-For source code:
-- publish this repository on GitHub
-
-For a playable build:
-- export a Windows build from Unity
-- upload the build as a `.zip` to itch.io or a GitHub Release
-
-Build/export notes:
-- `BUILD_NOTES.md`
-
-Best practice is to keep:
-- GitHub for source
-- itch.io or GitHub Releases for downloadable builds
-
 ## Status
 
 This is a portfolio vertical slice, not a content-complete game. The current focus is gameplay clarity, encounter structure, and a presentable end-to-end playable loop.
