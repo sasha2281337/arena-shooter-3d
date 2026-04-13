@@ -42,3 +42,5 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 
+# Local working assets
+Photo/

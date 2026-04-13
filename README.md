@@ -2,6 +2,17 @@
 
 Top-down sci-fi arena shooter built in Unity 6. The project focuses on a clean gameplay loop: survive waves, choose upgrades, fight a boss, and finish a short run.
 
+## Download
+
+- [Windows Build (latest release)](https://github.com/sasha2281337/arena-shooter-3d/releases/latest)
+
+## Screenshots
+
+![Main Menu](Docs/Screenshots/main-menu.png)
+![Gameplay Intro](Docs/Screenshots/gameplay-intro.png)
+![Upgrade Screen](Docs/Screenshots/upgrade-screen.png)
+![Combat](Docs/Screenshots/combat-wave-3.png)
+
 ## Core Features
 
 - Top-down character controller with mouse aim
