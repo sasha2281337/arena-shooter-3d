@@ -12,12 +12,16 @@ namespace ArenaShooter.Feedback
         [SerializeField, Min(0.01f)] private float flashDuration = 0.12f;
         [SerializeField] private bool autoFindChildRenderers = true;
 
+        public Animator Animator;
+
         private float lastHealth;
         private float flashTimer;
+
         private Color[] originalColors;
 
         private void Awake()
         {
+
             if (health == null)
             {
                 health = GetComponent<Health>();
@@ -26,6 +30,16 @@ namespace ArenaShooter.Feedback
             if ((targetRenderers == null || targetRenderers.Length == 0) && autoFindChildRenderers)
             {
                 targetRenderers = ResolveTargetRenderers();
+            }
+
+            if (Animator == null)
+            {
+                Animator = GetComponent<Animator>();
+
+                if (Animator == null)
+                {
+                    Animator = GetComponentInChildren<Animator>(true);
+                }
             }
 
             CacheOriginalColors();
@@ -67,6 +81,7 @@ namespace ArenaShooter.Feedback
                     continue;
                 }
 
+
                 targetRenderers[i].material.color = Color.Lerp(flashColor, originalColors[i], t);
             }
 
@@ -81,6 +96,11 @@ namespace ArenaShooter.Feedback
             if (currentHealth < lastHealth)
             {
                 flashTimer = flashDuration;
+
+                if (Animator != null)
+                {
+                    Animator.SetTrigger("Hit");
+                }
 
                 for (int i = 0; i < targetRenderers.Length; i++)
                 {

@@ -8,8 +8,8 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: b876a6bc8162b7240acfa33d94ee8d56
+  m_OcclusionCullingData: {fileID: 36300000, guid: 7b9d54a1f06103e4a897ec0ec13e343f, type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -6165,6 +6165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: template-corner (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9420cde1fcba83c4789a367e433db6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6581,6 +6585,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c673aef73be9ec845829df6bb6f4cc7d, type: 3}
       propertyPath: m_Name
       value: template-wall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c673aef73be9ec845829df6bb6f4cc7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13091,6 +13099,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: template-corner (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9420cde1fcba83c4789a367e433db6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13505,6 +13517,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: template-wall (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c673aef73be9ec845829df6bb6f4cc7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13860,6 +13876,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9420cde1fcba83c4789a367e433db6a9, type: 3}
       propertyPath: m_Name
       value: template-corner (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9420cde1fcba83c4789a367e433db6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14502,6 +14522,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c673aef73be9ec845829df6bb6f4cc7d, type: 3}
       propertyPath: m_Name
       value: template-wall (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c673aef73be9ec845829df6bb6f4cc7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15360,6 +15384,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: template-wall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c673aef73be9ec845829df6bb6f4cc7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16061,6 +16089,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9420cde1fcba83c4789a367e433db6a9, type: 3}
       propertyPath: m_Name
       value: template-corner (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9420cde1fcba83c4789a367e433db6a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
